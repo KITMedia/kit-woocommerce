@@ -13,7 +13,7 @@ add_action( 'init', 'kit_woocommerce_init' );
 function kit_woocommerce_init() {
 
 	add_filter( "facebook_for_woocommerce_integration_prepare_product", function ( $product_data, $id ) {
-
+		// Handle integration with Woocommerce + Facebook product export
 
 		// WooZone Specifics
 		if ( class_exists( 'WooZone' ) ) {
@@ -49,7 +49,7 @@ function kit_woocommerce_init() {
 			// Checkout url (maybe checkout directly at Amazon)
 			$product_data['checkout_url'] = $checkout_url;
 		}
-		
+
 		return $product_data;
 	}, 10, 2 );
 }
