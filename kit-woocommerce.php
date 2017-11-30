@@ -2,9 +2,12 @@
 /*
 Plugin Name:  KIT Woocommerce
 Plugin URI:   https://kitmedia.se
+Version:      0.1.0
 Description:  KIT Woocommerce customizer
 Author:       KIT Media
 Author URI:   https://kitmedia.se
+GitHub Plugin URI: KITMedia/kit-woocommerce
+GitHub Plugin URI: https://github.com/KITMedia/kit-woocommerce
 */
 
 
